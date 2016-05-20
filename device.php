@@ -627,6 +627,12 @@ $hardware_info = array(
                      'battery' => '3100 mAh',
                      'display' => '5.2 inch, 1920x1080 pixel(424ppi)',
                      'cpuarch' => 'Arm'),
+    'pisces' => array('cpu' => 'Nvidia Tegra 4',
+                     'ram' => '2GB',
+                     'rom' => '16GB',
+                     'battery' => '3050 mAh',
+                     'display' => '5 inch, 1920x1080 pixel(441ppi)',
+                     'cpuarch' => 'Arm'),
 );
 
 foreach ($devices_info as $k => $val) {
